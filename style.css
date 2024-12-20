@@ -1,11 +1,16 @@
-.map {
-    width: 100%;
-    height: 400px;
+.button-container { /* Container untuk tombol */
+    display: flex;
+    justify-content: space-between; /* Atur tombol rata kanan-kiri */
+    margin-top: 10px; /* Jarak dari peta */
   }
-
-  li {
-    position: fixed;
-    bottom: 10px;  /* Jarak dari bawah */
+  
+  .list-container { /* Container untuk list */
+    margin-top: 10px; /* Jarak dari tombol */
+  }
+  
+li {
+    display: list-item;
+    bottom: 200px;  /* Jarak dari bawah */
     left: 10px;    /* Jarak dari kiri */
     z-index: 1000; /* Agar elemen berada di atas elemen lain */
     margin-top: auto;
