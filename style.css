@@ -12,13 +12,17 @@
     height: 400px;
   }
   
-  li {
+  /* li {
     display: none;
-  } 
-/* li {
+  }  */
+
+  ul {
+    margin-top: 500px;
+  }
+li {
     display: list-item;
-    bottom: 200px;  
     left: 10px;    
     z-index: 1000; 
     margin-top: auto;
-  } */
+  }
+
