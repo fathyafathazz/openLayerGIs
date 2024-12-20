@@ -34,7 +34,7 @@ const style = new Style({
 
 const flightsSource = new VectorSource({
   loader: function () {
-    const url = 'flights.json'; // Lokasi file JSON lokal
+    const url = 'data.json'; // Lokasi file JSON lokal
     fetch(url)
       .then(function (response) {
         return response.json();
