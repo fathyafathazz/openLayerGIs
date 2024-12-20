@@ -7,11 +7,18 @@
   .list-container { /* Container untuk list */
     margin-top: 10px; /* Jarak dari tombol */
   }
-  
-li {
-    display: list-item;
-    bottom: 200px;  /* Jarak dari bawah */
-    left: 10px;    /* Jarak dari kiri */
-    z-index: 1000; /* Agar elemen berada di atas elemen lain */
-    margin-top: auto;
+  .map {
+    width: 100%;
+    height: 400px;
   }
+  
+  li {
+    display: none;
+  } 
+/* li {
+    display: list-item;
+    bottom: 200px;  
+    left: 10px;    
+    z-index: 1000; 
+    margin-top: auto;
+  } */
