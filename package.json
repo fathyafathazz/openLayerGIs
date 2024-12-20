@@ -1,5 +1,5 @@
 {
-    "name": "draw-freehand",
+    "name": "flight-animation",
     "dependencies": {
       "ol": "10.3.1"
     },
