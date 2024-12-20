@@ -1,8 +1,8 @@
-import Draw from 'ol/interaction/Draw.js';
-import Map from 'ol/Map.js';
-import View from 'ol/View.js';
-import {OSM, Vector as VectorSource} from 'ol/source.js';
-import {Tile as TileLayer, Vector as VectorLayer} from 'ol/layer.js';
+import Draw from 'https://cdn.skypack.dev/ol/interaction/Draw.js';
+import Map from 'https://cdn.skypack.dev/ol/Map.js';
+import View from 'https://cdn.skypack.dev/ol/View.js';
+import {OSM, Vector as VectorSource} from 'https://cdn.skypack.dev/ol/source.js';
+import {Tile as TileLayer, Vector as VectorLayer} from 'https://cdn.skypack.dev/ol/layer.js';
 
 const raster = new TileLayer({
   source: new OSM(),
