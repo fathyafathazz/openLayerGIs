@@ -12,6 +12,7 @@ import {getWidth} from 'https://cdn.skypack.dev/ol/extent.js';
 const tileLayer = new TileLayer({
   source: new StadiaMaps({
     layer: 'stamen_toner',
+    apikey: '7b9bf11f-b5b9-4023-9309-efb8b5d6eaaa',
   }),
 });
 
